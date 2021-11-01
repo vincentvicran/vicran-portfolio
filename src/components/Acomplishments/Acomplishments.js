@@ -22,7 +22,7 @@ const options = {
 const Acomplishments = () => (
     <Section>
         <SectionDivider style={{ margin: '1rem 0 3rem' }} />
-        <AccomSectionTitle>Personal Accomplishment</AccomSectionTitle>
+        <AccomSectionTitle>Personal Accomplishments</AccomSectionTitle>
         <Boxes>
             {AccomplishmentData.map((card, index) => (
                 <Tilt style={{ zIndex: '15' }} options={options}>
