@@ -44,7 +44,7 @@ const ContactMe = () => {
         toast.info('Please wait!');
 
         try {
-            const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/contact`, feedData, {
+            const res = await axios.post(`api/contact`, feedData, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
