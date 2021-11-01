@@ -6,7 +6,7 @@ import starParticlesConfig from '../../utils/Particles/starParticlesConfig.json'
 export const ParticleComponent = ({ theme }) => (
     <div
         style={{
-            position: 'absolute',
+            position: 'fixed',
             top: 0,
             left: 0,
             width: '100%',

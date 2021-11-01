@@ -41,6 +41,7 @@ const ContactMe = () => {
 
     const submitHandler = async (e) => {
         e.preventDefault();
+        toast.info('Please wait!');
 
         try {
             const res = await axios.post(`api/contact`, feedData, {
