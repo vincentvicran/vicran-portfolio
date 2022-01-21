@@ -70,6 +70,9 @@ const Timeline = () => {
                 <SectionSubText>
                     <strong>6-odd</strong> months of familiarity with <strong>NextJS</strong>
                 </SectionSubText>
+                <SectionSubText>
+                    Fluent in English Typing <strong>[70-80 wpm]</strong>
+                </SectionSubText>
             </SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
                 <>
@@ -80,6 +83,7 @@ const Timeline = () => {
                                 id={`carousel__item-${index}`}
                                 active={activeItem}
                                 onClick={(e) => handleClick(e, index)}
+                                style={{ height: '100%' }}
                             >
                                 <CarouselItemTitle>
                                     {`${item.year}`}

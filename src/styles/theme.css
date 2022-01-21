@@ -1,0 +1,18 @@
+.icon {
+    margin: 0 2px;
+    padding: 0 5px;
+}
+
+.icon .bounce {
+    animation: bounceicon 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounceicon {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

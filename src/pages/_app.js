@@ -5,6 +5,7 @@ import 'swiper/scss/pagination';
 import 'swiper/scss/effect-coverflow';
 
 import '../utils/SideButton/sidebutton.css';
+import '../styles/theme.css';
 
 export default function App({ Component, pageProps }) {
     return (

@@ -26,12 +26,16 @@ const Theme = ({ children }) => {
                 {theme === 'snow' ? (
                     <ThemeDiv>
                         <Text>Snow</Text>
-                        <BsSnow />
+                        <i className="icon">
+                            <BsSnow className="bounce" />
+                        </i>
                     </ThemeDiv>
                 ) : (
                     <ThemeDiv>
                         <Text>Star</Text>
-                        <GiLawStar />
+                        <i className="icon">
+                            <GiLawStar className="bounce" />
+                        </i>
                     </ThemeDiv>
                 )}
             </Toggle>

@@ -97,6 +97,8 @@ export const SubListItem = styled.li`
         transform: scale(1.5);
         -webkit-backdrop-filter: blur(1px);
         backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: drop-shadow(4px 4px 10px blue);
+        backdrop-filter: drop-shadow(4px 4px 10px blue);
         background-color: rgba(52, 0, 102, 0.1);
         border: 1px dotted gray;
         border-radius: 7px 0 7px 7px;

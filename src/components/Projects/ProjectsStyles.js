@@ -117,10 +117,10 @@ export const Tag = styled.li`
 export const Info = styled.p`
     width: 100%;
     padding: 20px;
-    color: gray;
     line-height: 24px;
     font-size: 14px;
     text-align: center;
+    color: ${(props) => props.theme.colors.info};
     @media ${(props) => props.theme.breakpoints.sm} {
         padding: 0.3rem;
         font-size: 12px;

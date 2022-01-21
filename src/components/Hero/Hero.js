@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SectionTitle } from '../../styles/GlobalComponents';
-import { HeroSection, HeroSectionText, HeroSectionSubText, HeroButton } from './HeroStyles';
+import { HeroSection, HeroSectionText, HeroSectionSubText, HeroText } from './HeroStyles';
 // import Button from '../../styles/GlobalComponents/Button';
 
 const Hero = () => (
@@ -9,8 +9,9 @@ const Hero = () => (
         <SectionTitle>
             Namaste <br />
         </SectionTitle>
-        <HeroSectionText>Explore My Personal Portfolio</HeroSectionText>
-        <HeroSectionSubText>thorough exhibition of the projects completed and technologies utilized</HeroSectionSubText>
+        <HeroText>It's me, Vikrant Shrestha.</HeroText>
+        {/* <HeroSectionText>Explore My Personal Portfolio</HeroSectionText> */}
+        <HeroSectionSubText>Welcome to my Personal Portfolio...</HeroSectionSubText>
         <a href="#about" className="button">
             <span className="span">Learn More</span>
         </a>

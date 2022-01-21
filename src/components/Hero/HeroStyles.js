@@ -23,7 +23,7 @@ export const HeroSection = styled.section`
     }
 `;
 
-export const HeroSectionText = styled.h3`
+export const HeroText = styled.h2`
     max-width: 800px;
     font-size: 40px;
     line-height: 40px;
@@ -41,6 +41,28 @@ export const HeroSectionText = styled.h3`
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 16px;
         line-height: 24px;
+        padding-bottom: 16px;
+    }
+`;
+
+export const HeroSectionText = styled.h3`
+    max-width: 800px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 2rem 5px;
+    color: rgba(255, 255, 255, 0.7);
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        max-width: 670px;
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 24px;
+    }
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 14px;
+        line-height: 22px;
         padding-bottom: 16px;
     }
 `;
